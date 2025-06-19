@@ -16,6 +16,75 @@ The Music App is a mobile application developed as part of an exam assignment in
 # App Purpose:
 The main goal of this app is to help to user create and manage a playlist.
 
+## App Peseudocode
+Rhythm Wave
+
+Pseudocode 
+
+0. Start  
+
+1. 	if btnStart is clicked then 
+		InputActivity()
+	endif 
+
+2.	if btnExit is clicked then 
+		ExitApp()
+
+	endif 
+=============================================
+0. Start 
+1. Declarations 
+	string strSong 
+	string strArtist
+	num intRatings
+	string strComments
+	intCount 
+
+
+2. intCount = 0 
+3. maxEntries = 4
+
+4. output "Please Enter the name of the song"
+5. input strSong 
+
+6. output "Please Enter the name of the artist"
+7. input strArtist
+
+8. output "Please Rate the song from 1 to 5"
+9. input intRatings
+
+10. output "Please add a comment"
+11. input strComment
+
+12. 	if intSong = null or inArtist = null or inRating = null or strComments = null then
+		output "Error"
+		return //Kick me out of the loop 
+	endif
+
+13. 	intCount = intCount + 1
+14. 	strSong[intCount] = song 
+15.	strArtist[intCount] = artist 
+16.	intRatings[intCount] = ratings
+17. 	strComent[intCount] = comment 
+
+18. calcAverage()
+19. displayAll()
+
+=====================================
+0. start 
+1. Retrive data from the arrays
+2. populate the arrays 
+3. output TextView
+4. if back button is clicked then 
+	go back to inputScreen
+	finish()
+
+    endif
+
+==================================== 
+
+ 
+
 # Screenshots 
 ## App Screenshots - User InterFace
 Screenshot 1: StartActivity.kt ![Screenshot 2025-06-19 133059](https://github.com/user-attachments/assets/3c13e20f-2a7d-4eb2-8791-bbdb910a8156)
@@ -49,7 +118,8 @@ Screenshot 3: ViewActivity.kt ![Screenshot 2025-06-19 133153](https://github.com
 ## App Flow
 #### Desiging the User InterFace 
 ### WireFrame
--
+-![image](https://github.com/user-attachments/assets/8ebdea09-582a-46b1-9a7e-081aaa3e8fab)
+
 
 ### Navigation Flow
 1. Splash Screem - Screen 1
@@ -78,11 +148,7 @@ Button - Display all -> Button - Display Average -> Text View - "Display Content
 
 ## References
 
-1. Reference 1: 
-2. Reference 2: 
-3. Reference 3: 
-4. Reference 4: 
-5. Reference 5: 
-6. Reference 6: 
+1. Reference 1: https://za.pinterest.com/pin/2814818511609742/
+
 
 
