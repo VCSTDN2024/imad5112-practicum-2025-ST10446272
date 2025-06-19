@@ -7,29 +7,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="@drawable/background"
     tools:context=".DetailsActivity">
 
     <TextView
         android:id="@+id/tvAppName"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Rhyth Wave"
         android:textAlignment="center"
-        android:textSize="30dp"
-        android:text="Rhyth Wave" />
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="80dp"
+        android:layout_marginBottom="10dp">
 
         <Button
             android:id="@+id/btnAll"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Display All"
+            android:backgroundTint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnAverage"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,12 +44,13 @@
         <Button
             android:id="@+id/btnAverage"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="Display Average"
+            android:backgroundTint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnAll"
@@ -55,19 +62,26 @@
     <TextView
         android:id="@+id/tvDetails"
         android:layout_width="match_parent"
-        android:layout_height="288dp"
-        android:text="" />
+        android:layout_height="576dp"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
         android:text="Back" />
 
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="10dp"
         android:text="Exit" />
 
 </LinearLayout>

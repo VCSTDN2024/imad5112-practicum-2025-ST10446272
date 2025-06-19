@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+https://za.pinterest.com/pin/2814818511609742/
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +10,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="@drawable/background"
     tools:context=".InputActivity">
 
     <TextView
@@ -14,36 +18,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@color/black"
+        android:textStyle="bold"
         android:text="Rhythm Wave" />
 
     <EditText
         android:id="@+id/etSongTitle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
+        android:layout_marginBottom="10dp"
         android:hint="Song Title" />
 
     <EditText
         android:id="@+id/etArtist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
+        android:layout_marginBottom="10dp"
         android:inputType="text"
         android:hint="Artist Name" />
 
     <RadioGroup
-        android:id="@+id/btnRadioGroup"
+        android:id="@+id/radio_group"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:layout_height="390dp"
         android:padding="15dp">
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What do you rate the song?"
+            android:layout_marginTop="20dp"
+            android:text="What do you rate the Game?"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -52,72 +62,69 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="1" />
+            android:text="1"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="2" />
+            android:layout_marginBottom="10dp"
+            android:text="2"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="3" />
+            android:layout_marginBottom="10dp"
+            android:text="3"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="4" />
+            android:layout_marginBottom="10dp"
+            android:text="4"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="5" />
+            android:layout_marginBottom="10dp"
+            android:text="5"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <EditText
         android:id="@+id/etComments"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="text"
-        android:hint="Comment" />
+        android:hint="Comment"
+        android:inputType="text" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
-       <!--  <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"
-            android:text="Add to Playlist"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btnClear"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-            -->
         <Button
             android:id="@+id/buttonAdd"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
             android:text="Add to Playlist"
+            android:backgroundTint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btnClear"
             app:layout_constraintStart_toStartOf="parent"
@@ -126,11 +133,12 @@
         <Button
             android:id="@+id/btnClear"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/black"
             android:text="Clear"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -143,13 +151,15 @@
     <Button
         android:id="@+id/btnView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
         android:text="View Details" />
 
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
         android:text="Exit" />
 
 </LinearLayout>
