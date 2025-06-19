@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".DetailsActivity">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:textAlignment="center"
+        android:textSize="30dp"
         android:text="Rhyth Wave" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

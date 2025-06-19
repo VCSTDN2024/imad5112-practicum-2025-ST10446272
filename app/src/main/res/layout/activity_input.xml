@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".InputActivity">
 
     <TextView
@@ -32,7 +33,7 @@
         android:hint="Artist Name" />
 
     <RadioGroup
-        android:id="@+id/radio_group"
+        android:id="@+id/btnRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -50,35 +51,35 @@
             android:id="@+id/one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="radio_button_click"
+            android:onClick="radioButtonClick"
             android:text="1" />
 
         <RadioButton
             android:id="@+id/two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="radio_button_click"
+            android:onClick="radioButtonClick"
             android:text="2" />
 
         <RadioButton
             android:id="@+id/three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="radio_button_click"
+            android:onClick="radioButtonClick"
             android:text="3" />
 
         <RadioButton
             android:id="@+id/four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="radio_button_click"
+            android:onClick="radioButtonClick"
             android:text="4" />
 
         <RadioButton
             android:id="@+id/five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="radio_button_click"
+            android:onClick="radioButtonClick"
             android:text="5" />
     </RadioGroup>
 
@@ -94,7 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp">
 
-        <Button
+       <!--  <Button
             android:id="@+id/btnAdd"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
@@ -107,6 +108,20 @@
             app:layout_constraintEnd_toStartOf="@+id/btnClear"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+            -->
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Add to Playlist"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnClear"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
             android:id="@+id/btnClear"
@@ -119,7 +134,7 @@
             android:text="Clear"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btnAdd"
+            app:layout_constraintStart_toEndOf="@+id/buttonAdd"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
