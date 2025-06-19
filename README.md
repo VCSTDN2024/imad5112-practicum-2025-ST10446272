@@ -7,7 +7,7 @@
 - Subject: IMAD5112
 
 # Links
-- GitHub 
+- GitHub - https://github.com/VCSTDN2024/imad5112-practicum-2025-ST10446272/edit/main/README.md
 
 
 # Project Overview
@@ -25,31 +25,41 @@ Detail View
 3. ![Screenshot 2025-06-19 133956](https://github.com/user-attachments/assets/3216e032-cf78-4514-b532-9156b74c5c66)
 
 Input  View
+1. ![Input 1](https://github.com/user-attachments/assets/10a84d95-2ee8-4c7b-bafb-ffe42507cf9f)
+2. ![Input 2](https://github.com/user-attachments/assets/2a1f25c4-5fd0-49cd-9dba-befa2ec918d5)
+3. ![Input 3](https://github.com/user-attachments/assets/7991e90d-9bda-480d-98e5-13bc819e356a)
+4. ![Input 4](https://github.com/user-attachments/assets/5095a20c-b43d-413c-903a-a775623b53e3)
+5. ![Input 5](https://github.com/user-attachments/assets/a200f1b3-b82c-4dc7-9424-354b3a8460c9)
+6. ![Input 6](https://github.com/user-attachments/assets/d1d98c12-9cd0-47d3-b0a4-f25ebce03d26)
+7. ![Input 7](https://github.com/user-attachments/assets/142efa13-9cdf-4e6c-b4d4-89c17047fbb9)
 
+Splash View
+1. ![Splash 1](https://github.com/user-attachments/assets/a4519225-a12b-4e0c-ac0e-aa4927de2e73)
 
-
-
+Start View
+1. ![Start 1](https://github.com/user-attachments/assets/729a373a-667d-4d40-b381-e01cb634c816)
 
 
 
 ## App Flow
 ### Screen 1
-logo
+Logo
 
 ### Screen2
-app name
-ST name
-ST number
-logo
-start
-exit
+App Name
+Student Name
+ST Number
+Logo
+Start
+Exit
 
 ### Screen 3
-app name
-Et - song Title
-et - Artist
-Radio Group
-ET - comments 
+App Name
+Song Title - Edit Text
+Artist - Edit Text
+Rating - Radio Group
+Comments - Edit Text
+
 Button - add
 Button - clear 
 Button - view Details
@@ -59,7 +69,7 @@ Button - Exit
 App name
 Button - Display all
 Button - Display Average
-tv - "Display Content"
+Text View - "Display Content"
 Button - Back
 Button - Exit 
 
@@ -83,20 +93,11 @@ Screenshot 3: ViewActivity.kt ![Screenshot 2025-06-19 133153](https://github.com
 
 ## References
 
-1. Reference 1: https://www.delish.com/cooking/recipe-ideas/g36890133/healthy-meal-prep-recipes/ 
-2. Reference 2: https://insanelygoodrecipes.com/after-school-snacks/
-3. Reference 3: https://www.allrecipes.com/gallery/breakfast-finger-foods/
-4. Reference 4: https://sharpaspirant.com/meal-prep-ideas-breakfast/#google_vignette 
-5. Reference 5: https://www.pexels.com/photo/red-strawberries-and-stainless-steel-spoons-on-a-black-surface-8019484/
-6. Reference 6: https://www.pexels.com/photo/red-strawberries-and-stainless-steel-spoons-on-a-black-surface-8019484/
+1. Reference 1: 
+2. Reference 2: 
+3. Reference 3: 
+4. Reference 4: 
+5. Reference 5: 
+6. Reference 6: 
 
-
-
-## List of Figures
-
-- **Figure 1**: Screenshot of the app's welcome screen.
-![Screenshot 2025-04-01 165649](https://github.com/user-attachments/assets/7d203c84-40b3-4194-9d8f-cc465b48fcf0)
-
-- **Figure 2**: Screenshot of the home screen.
-![Screenshot 2025-04-01 165704](https://github.com/user-attachments/assets/13558434-ce9b-4396-8878-dd0bbcd4e139)
 
